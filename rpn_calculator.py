@@ -26,6 +26,7 @@ def exit_program (n):
 operations = {'+': operator.add, '-': operator.sub, '*': operator.mul, '/': operator.div}
 
 val=[]
+print("Enter values in RPN")
 while True:
     error_flag = False
     #loops through values added in console
